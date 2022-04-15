@@ -6,4 +6,4 @@
 
 Clone the repository
 
-```$ git clone https://github.com/iYezan/SkeletonUIKit.git```
+```$ git clone https://github.com/iYezan/SkeletonView.git```
