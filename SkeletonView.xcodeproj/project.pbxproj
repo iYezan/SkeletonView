@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2C3DC6712809FEBD007E574D /* SkeletonUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkeletonUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C3DC6712809FEBD007E574D /* SkeletonView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkeletonView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C3DC6742809FEBD007E574D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C3DC67D2809FEBF007E574D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C3DC6802809FEBF007E574D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		2C3DC6682809FEBD007E574D = {
 			isa = PBXGroup;
 			children = (
-				2C3DC6732809FEBD007E574D /* SkeletonUIKit */,
+				2C3DC6732809FEBD007E574D /* SkeletonView */,
 				2C3DC6722809FEBD007E574D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		2C3DC6722809FEBD007E574D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C3DC6712809FEBD007E574D /* SkeletonUIKit.app */,
+				2C3DC6712809FEBD007E574D /* SkeletonView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2C3DC6732809FEBD007E574D /* SkeletonUIKit */ = {
+		2C3DC6732809FEBD007E574D /* SkeletonView */ = {
 			isa = PBXGroup;
 			children = (
 				2C3DC6742809FEBD007E574D /* AppDelegate.swift */,
@@ -67,15 +67,15 @@
 				2C3DC67F2809FEBF007E574D /* LaunchScreen.storyboard */,
 				2C3DC6822809FEBF007E574D /* Info.plist */,
 			);
-			path = SkeletonUIKit;
+			path = SkeletonView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C3DC6702809FEBD007E574D /* SkeletonUIKit */ = {
+		2C3DC6702809FEBD007E574D /* SkeletonView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C3DC6852809FEBF007E574D /* Build configuration list for PBXNativeTarget "SkeletonUIKit" */;
+			buildConfigurationList = 2C3DC6852809FEBF007E574D /* Build configuration list for PBXNativeTarget "SkeletonView" */;
 			buildPhases = (
 				2C3DC66D2809FEBD007E574D /* Sources */,
 				2C3DC66E2809FEBD007E574D /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = SkeletonUIKit;
+			name = SkeletonView;
 			productName = SkeletonUIKit;
-			productReference = 2C3DC6712809FEBD007E574D /* SkeletonUIKit.app */;
+			productReference = 2C3DC6712809FEBD007E574D /* SkeletonView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2C3DC66C2809FEBD007E574D /* Build configuration list for PBXProject "SkeletonUIKit" */;
+			buildConfigurationList = 2C3DC66C2809FEBD007E574D /* Build configuration list for PBXProject "SkeletonView" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C3DC6702809FEBD007E574D /* SkeletonUIKit */,
+				2C3DC6702809FEBD007E574D /* SkeletonView */,
 			);
 		};
 /* End PBXProject section */
@@ -285,7 +285,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XT6726KZ8H;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SkeletonUIKit/Info.plist;
+				INFOPLIST_FILE = SkeletonView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -295,7 +295,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.iyezanApp.SkeletonUIKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iyezanApp.SkeletonView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -312,7 +312,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XT6726KZ8H;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SkeletonUIKit/Info.plist;
+				INFOPLIST_FILE = SkeletonView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -322,7 +322,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.iyezanApp.SkeletonUIKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iyezanApp.SkeletonView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -333,7 +333,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C3DC66C2809FEBD007E574D /* Build configuration list for PBXProject "SkeletonUIKit" */ = {
+		2C3DC66C2809FEBD007E574D /* Build configuration list for PBXProject "SkeletonView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C3DC6832809FEBF007E574D /* Debug */,
@@ -342,7 +342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C3DC6852809FEBF007E574D /* Build configuration list for PBXNativeTarget "SkeletonUIKit" */ = {
+		2C3DC6852809FEBF007E574D /* Build configuration list for PBXNativeTarget "SkeletonView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C3DC6862809FEBF007E574D /* Debug */,

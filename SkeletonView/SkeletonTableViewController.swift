@@ -1,6 +1,6 @@
 //
 //  SkeletonTableViewController.swift
-//  SkeletonUIKit
+//  SkeletonView
 //
 //  Created by iYezan on 15/04/2022.
 //
@@ -42,7 +42,6 @@ class SkeletonTableViewController: UITableViewController {
 }
 
 extension SkeletonTableViewController {
-    // Navbar
     private func setupNavigationController() {
         title = "Podcast"
         navigationController?.navigationBar.prefersLargeTitles  = true

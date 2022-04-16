@@ -1,6 +1,6 @@
 //
 //  Podcast.swift
-//  SkeletonUIKit
+//  SkeletonView
 //
 //  Created by iYezan on 15/04/2022.
 //
