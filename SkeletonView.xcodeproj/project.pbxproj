@@ -39,6 +39,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C1E4C0D280CB90B002AE7B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C3DC692280A0368007E574D /* Podcast.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C1E4C0E280CB916002AE7B0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C3DC690280A0331007E574D /* SkeletonTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2C1E4C0F280CB92F002AE7B0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2C3DC68C280A0244007E574D /* SkeletonCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		2C3DC6682809FEBD007E574D = {
 			isa = PBXGroup;
 			children = (
@@ -59,9 +83,9 @@
 			isa = PBXGroup;
 			children = (
 				2C3DC6742809FEBD007E574D /* AppDelegate.swift */,
-				2C3DC68C280A0244007E574D /* SkeletonCell.swift */,
-				2C3DC690280A0331007E574D /* SkeletonTableViewController.swift */,
-				2C3DC692280A0368007E574D /* Podcast.swift */,
+				2C1E4C0D280CB90B002AE7B0 /* Model */,
+				2C1E4C0F280CB92F002AE7B0 /* Cell */,
+				2C1E4C0E280CB916002AE7B0 /* Controllers */,
 				2C3DC68E280A0255007E574D /* SkeletonLoadable.swift */,
 				2C3DC67D2809FEBF007E574D /* Assets.xcassets */,
 				2C3DC67F2809FEBF007E574D /* LaunchScreen.storyboard */,
